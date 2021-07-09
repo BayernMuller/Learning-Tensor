@@ -1,6 +1,6 @@
 # 01. Tensor
 
-## What is "Tensor"
+### What is "Tensor"
 
 Tensor has following attribute
 - Type (such as float32, int32, string)
@@ -9,7 +9,7 @@ Tensor has following attribute
 Each eleements in a Tensor have same type.
 
 
-## Tensor form
+### Tensor form
 ``` python
 import tensorflow as tf
 
@@ -19,7 +19,7 @@ tf.placeholder
 tf.SparseTensor
 # Usual forms of tensor
 ```
-## Rank
+### Rank
 
 number of dimension
 
@@ -33,7 +33,7 @@ sysnonym: order, degree
 |3|3-Tensor (Cube)|
 |n|n-Tensor|
 
-## Rank 0 Tensor
+### Rank 0 Tensor
 
 ``` python
 mammal = tf.Variable("코끼리", tf.string)
@@ -42,7 +42,7 @@ floating = tf.Variable(3.141234243, tf.float64)
 its_complicated = tf.Variable(12.3 - 485j, tf.complex64)
 ```
 
-## Rank 1 Tensor
+### Rank 1 Tensor
 
 ``` python
 mystr = tf.Variable(["안녕하세요"], tf.string)

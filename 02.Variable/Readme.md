@@ -1,6 +1,6 @@
 # Variable
 
-## Create Variable
+### Create Variable
 
 **General**
 ``` python
@@ -30,7 +30,7 @@ print(w)
 <tf.Tensor: shape=(), dtype=int32, numpy=4>
 ```
 
-## Operation
+### Operation
 
 ```tf.Variable``` + ```Constant``` = ```tf.Tensor```
 ```python
@@ -54,7 +54,7 @@ print(v.read_value())
 <tf.Tensor: shape=(), dtype=int32, numpy=10>
 ```
 
-## Following Variable
+### Following Variable
 
 You can make set of Variable with ```tf.Module```
 ```python
