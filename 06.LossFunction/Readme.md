@@ -6,9 +6,21 @@ The indicator that shows how **incorrect** models such as regression or classifi
 ### Hinge loss
 sysnonym: Support Vector Machine (SVM loss)
 
-![](res/svm_loss.png)
+<!-- $$
+L_i=\sum_{j \neq y_i}max(0, s_j-s_{y_i}+1)
+$$ --> 
+</br>
+</br>
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=L_i%3D%5Csum_%7Bj%20%5Cneq%20y_i%7Dmax(0%2C%20s_j-s_%7By_i%7D%2B1)" width="50%"></div>
+</br>
 
-loss = sum( max(incorrect - correct + 1) )
+<!-- $$
+SVM = \frac{1}{N}\sum_{i=1}^{N}L_i
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=SVM%20%3D%20%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5E%7BN%7DL_i" width="40%"></div>
+</br>
+
 
 ![](res/svm_calcu.png)
 
