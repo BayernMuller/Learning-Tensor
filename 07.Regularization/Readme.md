@@ -14,7 +14,8 @@ $$ -->
 
 
 
-λR(x) is for regularizaiton, and λ is [**hyper parameter**](https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning))
+<!-- $\lambda R(x)$ --> 
+<img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Clambda%20R(x)"> is for regularizaiton, and <!-- $\lambda$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Clambda"> is [**hyper parameter**](https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning))
 
 ### L2, L1 Regularization
 
