@@ -11,14 +11,14 @@ L_i=\sum_{j \neq y_i}max(0, s_j-s_{y_i}+1)
 $$ --> 
 </br>
 </br>
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=L_i%3D%5Csum_%7Bj%20%5Cneq%20y_i%7Dmax(0%2C%20s_j-s_%7By_i%7D%2B1)" width="50%"></div>
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=L_i%3D%5Csum_%7Bj%20%5Cneq%20y_i%7Dmax(0%2C%20s_j-s_%7By_i%7D%2B1)" height="40"></div>
 </br>
 
 <!-- $$
 SVM = \frac{1}{N}\sum_{i=1}^{N}L_i
 $$ --> 
 
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=SVM%20%3D%20%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5E%7BN%7DL_i" width="40%"></div>
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=SVM%20%3D%20%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5E%7BN%7DL_i" height="40"></div>
 </br>
 
 
@@ -67,7 +67,13 @@ crossentropy = -np.log(softmax[0])
 
 ### Mean Squared Error
 in korean: 평균 제곱 오차
-![](res/mse.png)
+
+<!-- $$
+MSE = \frac{1}{N}\sum_{i=1}^{N}(y_i- \hat{y_i})^2
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=MSE%20%3D%20%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5E%7BN%7D(y_i-%20%5Chat%7By_i%7D)%5E2" height="40"></div>
+
 
 * N is the number of data points
 * Yi represents observed values
